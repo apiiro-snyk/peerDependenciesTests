@@ -1,0 +1,33 @@
+{
+  "name": "peerDependenciesTests",
+  "version": "1.0.0",
+  "description": "A project to test peer dependencies",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "axios": "^1.5.0",
+    "bcrypt": "^5.1.0",
+    "jsonwebtoken": "^9.0.1",
+    "nodemailer": "^6.9.0",
+    "helmet": "^6.0.1",
+    "body-parser": "^1.20.2",
+    "winston": "^3.8.2"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.1.0",
+    "mongoose": "^7.0.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "jest": "^29.4.3",
+    "eslint": "^8.29.0"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
